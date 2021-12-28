@@ -40,13 +40,13 @@
 
 		<dependency>
 			<groupId>io.github.openfeign</groupId>
-			<artifactId>feign-okhttp</artifactId>
+			<artifactId>feign-mock</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>io.github.openfeign</groupId>
-			<artifactId>feign-httpclient</artifactId>
+			<artifactId>feign-jackson</artifactId>
 		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
