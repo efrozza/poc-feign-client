@@ -1,4 +1,4 @@
-package com.efrozza.pocfeignclient.entities;
+package com.efrozza.pocfeignclient.entrypoints.controller.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,10 +9,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Post {
+public class PostDTO {
 
     private int userId;
-    private int id;
+    private long id;
     private String title;
     private String body;
 }
